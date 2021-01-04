@@ -18,8 +18,13 @@ Deployed Portfolio page:
 Deployed Contact page:
  
  ![](./src/assets/sc3.png)
- 
-link to github pages:  https://thaliarowan.github.io/my_Portfolio.github.io/
+
+
+## Link to Repository
+ https://github.com/ThaliaRowan/myportfolio.git
+
+## Link to Deployed Application
+https://thaliarowan.github.io/myportfolio/
  
  
  
