@@ -1,0 +1,268 @@
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: serif;
+  background-color: #212121;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  font-family: serif;
+}
+
+#myPr, #pr2{
+  justify-content: center;
+}
+
+.fName {
+  text-align: center;
+}
+
+#myPic {
+  border: 5px solid black;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+#nvs {
+  float: right;
+}
+
+.nav-link {
+  border-radius: 3px;
+  padding: 20px;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: 484848;
+  color: #484848;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+#logo:hover {
+  color: #484848;
+}
+
+.navbar-toggler {
+  background-color: #484848;
+}
+
+#aboutMe {
+  padding: 60px;
+  text-align: center;
+}
+
+.card {
+  border-style: none;
+  border-color: rgb(65, 60, 60);
+ 
+}
+
+.card-body {
+  background-color: #373737;
+}
+
+#ab {
+  margin-top: 12%;
+}
+
+.card-header {
+  background-color: #373737;
+  padding: 5%;
+  padding-bottom: 1px;
+  font-family: serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#conBtn {
+  background-color: #616161;
+  border-color: black;
+}
+
+#port1,
+#port2,
+#port3, 
+#port4
+{
+  margin-top: 6%;
+}
+
+#no1,
+#no2,
+#no3,
+#no4,
+#no5 {
+  padding: 1%;
+  padding-bottom: 15%;
+}
+
+#portHead {
+  font-size: 2.5rem;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover .card-img-overlay {
+  top: 0;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  top: -100%;
+  background-color: rgba(10, 10, 10, 0.747);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: left 0.7s;
+  
+}
+
+#viewBtn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#viewBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+article{
+  padding-bottom: 5%;
+}
+
+#port3:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
+}
+
+#port2:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
+}
+
+#port1:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
+}
+
+
+#port4:hover {
+  position: relative;
+  top: -10px;
+  width: 700px;
+  height: auto;
+  display: block;
+  z-index: 999999999;
+}
+
+#pImg {
+  width: 30rem;
+  max-width: 100%;
+  height: 250px;
+}
+
+#pl3, #pl2, #pl1, #pl4{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+
+#m1, #m2, #m3,#m4 {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+
+}
+
+#myform {
+  margin-top: 6%;
+}
+
+
+#page-container, #page-container2, #page-container3 {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap, #content-wrap2 , #content-wrap3{
+  padding-bottom: 2.5rem;   
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            
+}
+
+.footer-copyright {
+  margin-bottom: 0;
+  margin-top: 100px;
+ background-color: #3d3d3d00;
+  color: #454545;
+}
+
+.myCopy {
+  margin: 3px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background-color: black;
+}
+
+#myGit{
+  color: white;
+}
+
+#myGit2{
+  color: red;
+}
