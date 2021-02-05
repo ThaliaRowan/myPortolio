@@ -24,3 +24,20 @@
 .grid > div{
     flex-basis: calc(50% - 40%);
 }
+
+.github {
+    display: flex;
+    flex-direction: row;
+  }
+  .github:before, .github:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+  }
+  .github:before {
+    margin-right: 10px
+  }
+  .github:after {
+    margin-left: 10px
+  }

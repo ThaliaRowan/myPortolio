@@ -17,7 +17,7 @@ function Header(){
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li className="nav-item">
-        <Link to="/about"  className="nav-link">
+        <Link to="/"  className="nav-link">
         
           About
         </Link>
@@ -29,18 +29,7 @@ function Header(){
         >
           Portfolio
         </Link>
-      </li>
-      <li className="nav-item">
-     
-        <Link
-         className="nav-link"
-          to="/contact"
-         
-        >
-          Contact
-        </Link>
-      </li> 
-            
+      </li>        
           </ul>
         </div>
     

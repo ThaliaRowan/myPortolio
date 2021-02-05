@@ -1,55 +1,76 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import Pic from '../assets/myPic.JPG';
+import "./about.css";
 
 function About() {
   return (
-<div> 
-    <Container>
-    <Row id="aboutMe"> 
-        <Col lg="6">
-            <h2>ABOUT ME</h2>
-            <article>
-                Hi, My name is Thalia Romany.<br/>
-
-                I love building and creating new things. My interest in this field raised during highschool, where I began researhing more on the job titles<br />
-
-                I attended the Uconn coding bootcamp to begin my journey in learning the skills needed to achieve my goals.
-
-                You can reach me on: <br/>          
-
-                  <Row>
-                    <Col sm="3">
-                    <a href="https://www.linkedin.com/in/thalia-romany-559b15183"> LinkedIn
-                </a><br/>     
-                    </Col>
-                   
-                  <Col sm="3">
-                  <a href="https://github.com/ThaliaRowan"> Github</a><br/>
-                  </Col>
-                   
-                  <Col sm="3">
-                  <a href="https://docs.google.com/document/d/1X-pGg6C-sY-SJBnC2hwekVeOswi4Xguf0Aa75-TVhbU/edit?usp=sharing">Resume</a><br/>
-                  </Col>
-                
-                  <Col sm="3">
-                  <a href="mailto:thalia.rowan@gmail.com">email</a><br/>
-                  </Col>
-                  </Row>
-               
-                        
-            </article>
-        </Col> 
-        <Col lg="6">
-        <img  src={Pic}   style={{width: "20rem"}} id="myPic" alt="A pic of me" />      
-        </Col>
-         
-  
+      <div> 
+        <div className="jumbotron" id="overlay">
+          <h1 className="display-4" id="title">Thalia Romany</h1>
+          <p className="lead">Full-stack Developer</p>
+        </div> 
+        <Row>
+          <Col md="12">
+            <h2 className="me">About Me</h2>
+          </Col>
         </Row>
-    </Container>
-</div>
-
-        
+        <Row>
+          <Col lg="12">
+          <img src={Pic} style={{width: "20rem", padding: "20px"}} className="center-block" />
+          </Col>
+        </Row>
+        <Col md="12">
+        <article style={{textAlign: "center"}}>
+           I am a full-stack developer interested in building new technologies <br/>
+           and expand my knowledege of already exisiting technologies.
+           </article>
+        </Col>
+        <Row>
+        </Row>
+        <Row>
+          <Col md="12">
+            <h2 className="skills">Skills and Technologies</h2>
+          </Col>
+        </Row>
+        <Row>
+          <Col  sm="12" lg="4">
+          <div className="card" style={{width: "18rem"}} className="c1">
+          <h5 className="card-header">Front-End</h5>
+            <div className="card-body">
+              <p>HTML/CSS</p>
+              <p>JavaScript</p>
+              <p>JQuery</p>
+              <p>React</p>
+            </div>
+          </div>
+          </Col>
+          <Col sm="12" lg="4">
+          <div className="card" style={{width: "18rem"}} className="c2">
+          <h5 className="card-header">Database</h5>
+            <div className="card-body">
+              <p>MySql</p>
+              <p>MongoDB</p>
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
+          </Col>
+          <Col sm="12" lg="4">
+          <div className="card" style={{width: "18rem" }} className="c3">
+          <h5 className="card-header">Server</h5>
+            <div className="card-body" >
+              <p>Express</p>
+              <p>Node.js</p>
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
+          </Col>
+        </Row>
+      </div>     
   );
 }
 
