@@ -24,7 +24,7 @@ function Project(){
             title: "Bags",
             techno: "JavaScript, OpenWeatherMap API, GoogleMaps API",
             repoLink: "https://github.com/dougdavidoff/bags.git",
-            pageLink: "https://dougdavidoff.github.io/bags/index.html."
+            pageLink: "https://dougdavidoff.github.io/bags/index.html"
             },
             
         {
