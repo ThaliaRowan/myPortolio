@@ -22,8 +22,8 @@ function About() {
         </Row>
         <Col md="12">
         <article style={{textAlign: "center"}}>
-           I am a full-stack developer interested in building new technologies <br/>
-           and expand my knowledege of already exisiting technologies.
+        Hey! I am a Full-Stack developer with a passion for building things! <br/> I recently graduated from the University of Connecticut Coding bootcamp and I am eager to learn more and expand my knowledge by contributing to real-world projects.
+
            </article>
         </Col>
         <Row>
