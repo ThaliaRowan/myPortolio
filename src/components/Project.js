@@ -26,13 +26,6 @@ function Project(){
             repoLink: "https://github.com/dougdavidoff/bags.git",
             pageLink: "https://dougdavidoff.github.io/bags/index.html"
             },
-            
-        {
-            title: "Burger",
-            techno: "Express, Node.js, MySql, Handlebars",
-            repoLink: "https://github.com/ThaliaRowan/burger.git",
-            pageLink: "https://glacial-falls-49922.herokuapp.com/"
-            },
             {
                 title: "Note_Taker",
                 techno: "Express, Node.js, MySql",
